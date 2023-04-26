@@ -1,0 +1,35 @@
+#################################################################################################
+Rare variants
+#################################################################################################
+
+############## M/n0/nSNP/rho(LD)/eta/test (null or alter)/set null--joint/inter; alter--nomain/joint/stromain/diff/same ##########################
+
+  Rscript --vanilla joint_test.R 1000 1000 50 0 1 null joint &
+  Rscript --vanilla joint_test.R 1000 1000 50 0 1.2 null joint &
+ 
+  Rscript --vanilla joint_test.R 1000 500 50 0.2 1 null joint &
+  Rscript --vanilla joint_test.R 1000 1000 50 0.2 1.2 null joint &
+ 
+  Rscript --vanilla joint_test.R 1000 500 50 0.6 1 null joint &
+  Rscript --vanilla joint_test.R 1000 500 50 0.6 1.2 null joint &
+   
+  
+  Rscript --vanilla joint_test.R 1000 500 50 0.9 1 null joint &
+  Rscript --vanilla joint_test.R 1000 500 50 0.9 1.2 null joint &
+ 
+  ############################################################################
+  Rscript --vanilla joint_test.R 100 500 50 0 1 alter joint &
+  Rscript --vanilla joint_test.R 1000 500 50 0 1.2 alter joint &
+ 
+  Rscript --vanilla joint_test.R 1000 500 50 0.2 1 alter joint &
+  Rscript --vanilla joint_test.R 1000 500 50 0.2 1.2 alter joint &
+ 
+  Rscript --vanilla joint_test.R 100  1000 50 0.6 1 alter joint &
+  Rscript --vanilla joint_test.R 1000 500 50 0.6 1.2 alter joint &
+ 
+  Rscript --vanilla joint_test.R 1000  1000 50 0.9 1 alter joint &
+  Rscript --vanilla joint_test.R 1000 500 50 0.9 1.2 alter joint &
+ 
+ 
+  
+  

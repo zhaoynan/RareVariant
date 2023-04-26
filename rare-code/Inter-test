@@ -1,0 +1,32 @@
+#################################################################################################
+Rare variants
+#################################################################################################
+
+############## M/n0/nSNP/rho(LD)/eta/test (null or alter)/set null--joint/inter; alter--nomain/modemain/stromain/diff/same ##########################
+  
+  Rscript --vanilla Inter_test.R 1000 500 50 0 1 null inter &
+  Rscript --vanilla Inter_test.R 1000 500 50 0 1.2 null inter &
+ 
+  Rscript --vanilla Inter_test.R 1000 500 50 0.2 1 null inter &
+  Rscript --vanilla Inter_test.R 1000 500 50 0.2 1.2 null inter &
+  
+  Rscript --vanilla Inter_test.R 1000 500 50 0.6 1 null inter &
+  Rscript --vanilla Inter_test.R 1000 500 50 0.6 1.2 null inter &
+  
+  Rscript --vanilla Inter_test.R 1000 500 50 0.9 1 null inter &
+  Rscript --vanilla Inter_test.R 1000 500 50 0.9 1.2 null inter &
+  
+############################################################################
+  Rscript --vanilla Inter_test.R 10 500 50 0 1 alter inter &
+  Rscript --vanilla Inter_test.R 1000 1000 50 0 1.2 alter inter &
+ 
+  Rscript --vanilla Inter_test.R 1000 500 50 0.2 1 alter inter &
+  Rscript --vanilla Inter_test.R 1000 500 50 0.2 1.2 alter inter &
+  
+  Rscript --vanilla Inter_test.R 1000 500 50 0.6 1 alter inter &
+  Rscript --vanilla Inter_test.R 1000 1000 50 0.6 1.2 alter inter &
+  
+  Rscript --vanilla Inter_test.R 1000 500 50 0.9 1 alter inter &
+  Rscript --vanilla Inter_test.R 1000 500 50 0.9 1.2 alter inter &
+
+############################################################################
